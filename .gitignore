@@ -1,2 +1,11 @@
 *.egg-info/
 __pycache__/
+trident/segmentation_models/hest-tissue-seg/
+
+# Model files
+*.onnx
+*.h5
+*.ckpt
+*.bin
+*.pth
+*.pt
