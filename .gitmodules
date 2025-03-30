@@ -1,0 +1,3 @@
+[submodule "trident/slide_encoder_models/model_zoo/CHIEF"]
+	path = trident/slide_encoder_models/model_zoo/CHIEF
+	url = https://github.com/hms-dbmi/CHIEF.git
