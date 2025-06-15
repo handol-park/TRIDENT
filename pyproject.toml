@@ -1,13 +1,16 @@
-[tool.poetry]
+[project]
 name = "trident"
 version = "0.2.0"
 description = "A package for preprocessing whole-slide images."
 authors = [
-    "Andrew Zhang <andrewzh@mit.edu>",
-    "Guillaume Jaume <gjaume@bwh.harvard.edu>",
-    "Paul Doucet <homedoucetpaul@gmail.com>"
+    {"name" = "Andrew Zhang", "email" ="andrewzh@mit.edu"},
+    {"name" = "Guillaume Jaume", "email" = "gjaume@bwh.harvard.edu"},
+    {"name" = "Paul Doucet", "email" = "homedoucetpaul@gmail.com"}
 ]
 license = "CC BY-NC-ND 4.0"  # Specify your package's license if different.
+requires-python = ">=3.10"
+
+[tool.poetry]
 repository = "https://github.com/mahmoodlab/TRIDENT"
 
 [tool.poetry.dependencies]
